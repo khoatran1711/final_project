@@ -1,0 +1,604 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container,.container-left,.container-right,.container-mid
+{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.showcase{
+    margin-top: 0px;
+    
+}
+
+header{
+    background-color:white;
+    color: black;
+    padding-top: 25px;
+    min-height: 80px;
+    height: 80px;
+    border-bottom:rgba(177, 179, 168, 0.603) 1px solid;
+    
+}
+
+.test{
+    width: 1500px;
+    height: 800px;
+    background: url('./Hinh_anh/2800.jpg');
+}
+
+body{
+    background-color: rgb(246, 245, 243);
+    
+}
+
+header h1{
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family :'Courier New', Courier, monospace;
+    font-size: 26px;
+    letter-spacing: 0px;
+    
+}
+
+header a{
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+    
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 15 0 15;
+    
+}
+
+header .branding{
+    float:left;
+}
+header .branding h1{
+    margin: 0;
+}
+header nav{
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-family: intrepid;
+    color:darkgrey;
+    letter-spacing:1px;
+}
+
+.image{
+    width: 65%;
+    background-color: rgb(114, 122, 114);
+    height: 500px;
+    margin-top: 50px;
+    overflow: hidden;
+   
+    
+}
+
+.container-left .box-1 h2{
+    padding-top: 350px;
+    padding-left: 60px;
+    font-family: Intrepid;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: white;
+    text-align: left;
+
+}
+
+
+.image nav{
+    margin-left: 10px;
+
+}
+
+
+
+.image li{
+    border: black 1px solid;
+    height: 20px;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+    display: inline;
+    text-align: center;
+    padding: 10 20 10 20;
+    overflow: hidden;
+}
+
+
+
+.container-left > .image{
+    float: left;
+    background:url('./Hinh_anh/test.jpg');
+}
+
+.container-left .content{
+    margin-top: 100px;
+   
+    
+}
+
+.container-left h2{
+    /*text-align: right ;*/
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-family: Bahnschrift;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.container-left p{
+    font-family:  Lucida Sans Unicode;
+    font-size: 15px;
+}
+
+
+.container-left h1{
+    font-size: 90px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.search-box {
+      float: right;
+      width: 30%;
+      height: 35px;
+      background-color:rgb(246, 245, 243);
+      border-radius: 0.3rem;
+  }
+.search-text {
+    background: none;
+    border:none;
+    outline: none;
+    float: left;
+    font-family: Intrepid;
+    font-size: 16px;
+    font-style: oblique;
+    margin-top: 8px;
+    margin-left: 8%;
+    line-height: 20px;
+    width: 80%;
+    color: rgb(195, 192, 189);
+}
+
+
+.list-1,.list-2{
+  
+    height: 40px;
+    width: 250px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    float: left;
+    display: inline;
+    text-align: center;
+    padding: 10 20 10 20;
+    font-family: intrepid;
+}
+
+.list-1{
+    background-color: white;
+    border: white 1px solid;
+}
+.list-1 a{
+   color: black;
+   text-decoration: none;
+}
+.list-2{
+    border: white 1px solid;
+}
+.list-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.search-box img{
+    margin-top: 9px;
+    margin-left: 10px;
+   
+}
+
+
+
+.container-right .content{
+    margin-top: 90px;
+    
+    
+}
+
+.container-right  h2{
+  
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-family: Bahnschrift;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.container-right h1{
+    font-size: 90px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+   text-align: left;
+
+}
+
+
+
+.container-right p{
+    font-family: Lucida Sans Unicode;
+    font-size: 15px;
+}
+
+.container-right .image{
+    float: right;
+    width: 45%;
+    height: 850px;
+    margin-top: 0;
+    margin-right: 0px;
+    background-image: url('./Hinh_anh/test3.jpg');
+   
+}
+
+.slider{
+    width: 100%;
+    height: 800px;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 800px;
+    display: flex;
+
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 100%;
+    height: 800px;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: 670px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+ 
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 670px;
+}
+
+.navigation-auto div{
+    border:2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:white ;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background:white ;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background:white ;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background:white ;
+}
+
+
+@media(max-width:1150px){
+    .container-mid{
+        padding-bottom: 10px;
+        height: 500px;
+    }
+
+    .container-mid .picture-text1{
+        margin-top: 450px;
+        margin-left: 23%;
+    }
+
+    .container-mid h2{
+        font-size: 40px;
+    }
+
+    .container-mid h1{
+        font-size: 50px;
+    }
+
+    .container-left .box-1 {
+        min-height: 500px;
+    }
+
+    .container-left h2{
+        font-size: 40px;
+    }
+
+    .container-left h1{
+        font-size: 70px;
+    }
+    .container-right h1{
+        font-size: 70px;
+    }
+    .container-right h2{
+        font-size: 40px;
+    }
+
+    .container-right{
+        height: 1000px;
+    }
+    
+}
+
+@media(max-width:650px){
+    .container-right {
+        height: 1100px;
+
+    }
+}
+
+@media(min-width: 1150px){
+    .container-mid{
+        padding-bottom: 40px;
+        min-height: 500px;
+    }
+
+    .container-right{
+        height: 900px;
+    }
+    
+    .container-mid .content{
+        float: left;
+        text-align: left;
+        margin-left: 47%;
+        width: 45%;
+        position: absolute;
+        margin-top: 90px;
+        
+    }
+    
+    .container-mid h1{
+        font-size: 35px;
+        margin-top: 0px;
+        text-align: right;
+        margin-right: 30%;
+    }
+    
+    .container-mid h2{
+        font-size: 60px;
+        text-align: right;
+        margin-right: 30%;
+        margin-top: 0px;
+    }
+    
+    .container-mid p{
+        text-align: right;
+        margin-right: 30%;
+        margin-top: 0px;
+    }
+    
+    .picture-text1{
+        background: url('./Hinh_anh/145.jpg');
+        margin-left: 10%;
+        margin-top: 0px;
+        display: flex;
+        position: absolute;
+
+    }
+
+    .picture-text1 img{
+        margin-left: 10%;
+        margin-top: 80px;
+        display: flex;
+        position: absolute;
+        
+    }
+    .block{
+        display: flex;
+        margin-top: 48px;
+        width: 35%;
+        height: 430px;
+        background: rgb(196, 183, 158);
+        margin-left: 25%;
+        position: absolute;
+    }
+}
+
+
+
+
+@media(min-width: 1150px){
+
+.flexbox{
+    display: flex;
+}
+
+.container-right .content{
+    margin-left: 80px;
+    width: 80%;
+    
+}
+
+.content h2{
+    text-align: right ;
+}
+
+.container-right h2{
+    text-align: left;
+}
+
+.container-right .box-2{
+    background: url('./Hinh_anh/pic2.jpg');
+}
+/* min-width:1100px*/
+
+.container-left h2{
+    text-align: right;
+}
+
+.container-left .box-2{
+    padding-left: 5%;
+}
+
+}
+
+
+@media(max-width:1150px){
+
+
+.content h1{
+ text-align: center;
+ /*font-size: 60px;*/
+}
+
+.content h2{
+text-align: center;
+/*font-size: 50px;*/
+}
+
+.container-right .image{
+    flex-basis: auto;
+}
+
+.container-right .box-2{
+ background: url('./Hinh_anh/pic2_2.jpg');
+
+}
+
+.container-left h2,h1{
+    text-align: center;
+}
+
+
+/* max-width:1100px*/
+
+
+
+}
+
+
+.flexbox{
+    margin-top: 30px;
+}
+
+.box-1{
+    flex-basis: 83%;
+    background :url('./Hinh_anh/test.jpg');
+    height:100fr;
+}
+
+
+.container-right>.flexbox{
+    height: 850px;
+}
+.box-2{
+    flex-basis: 17%;
+    font-size: 30px;
+   
+}
+
+.container-right .box-1{
+    background: rgb(246, 245, 243);
+    flex-basis: 62%;
+   
+}
+
+
+
+.container-right .box-2{
+    flex-basis: 38%;
+    min-height: 850px;
+}
+
+
+
+
+ 
+  
+
+
+
+
+.container-mid>.content>p{
+   
+    font-size: 20px !important;
+}
