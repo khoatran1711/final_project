@@ -1,1 +1,1 @@
-<?php header('Location: ./webl.html' );?>
+<?php header('Location: Home/Home.html' );?>
