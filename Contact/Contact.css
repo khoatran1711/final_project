@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 body {
-    background-image:url('./Hinh_anh/Contact_.jpg');
+    background-image:url('../Hinh_anh/Contact_.jpg');
     background-position: 0px -90px;
     background-size: cover;
 }

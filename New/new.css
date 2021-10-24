@@ -46,9 +46,9 @@
     font-weight: 600;
   }
   
-  .button:main_hover {
-    background-color: #f17228;
-    color: white;
+  .button:hover {
+    background-color: #7c7d88;
+    color: rgb(255, 255, 255);
   }
   
   .main-section {
@@ -120,7 +120,7 @@
     transition-timing-function: ease;
   }
   
-  .featured-wrapper:main_hover {
+  .featured-wrapper:hover {
     transform: translate(0px, -5px);
   }
   .category-tag-2 {
@@ -238,7 +238,7 @@
     text-decoration: none;
   }
   
-  .thumbnail-wrapper:main_hover {
+  .thumbnail-wrapper:hover {
     box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 0px 1px, rgba(0, 0, 0, 0.09) 0px 2px 23px 0px;
     transform: translate(0px, -3px);
   }
