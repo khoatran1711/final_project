@@ -48,7 +48,7 @@
 
 .Logo h2{
   
-    background-image: linear-gradient(to right bottom, #dd921e, #e2a72e, #e7bb3f, #ebd053, #eee468);
+    background-image: linear-gradient(to right top, #dd921e, #d88f1f, #d28c20, #cd8920, #c88621, #c38220, #bd7f20, #b87b1f, #b1761c, #aa711a, #a46d17, #9d6814);
     color:transparent;
     -webkit-background-clip: text;
     margin-left: 9%;
@@ -60,7 +60,7 @@
 }
 
 .Logo h3{
-    background-image: linear-gradient(to bottom, #dd921e, #e2a72e, #e7bb3f, #ebd053, #eee468);
+    background-image: linear-gradient(to right top, #dd921e, #d88f1f, #d28c20, #cd8920, #c88621, #c38220, #bd7f20, #b87b1f, #b1761c, #aa711a, #a46d17, #9d6814);
     color:transparent;
     -webkit-background-clip: text;
     margin-left: 9%;

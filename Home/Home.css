@@ -46,15 +46,30 @@ body{
     
 }
 
+@media(min-width:1150px){
+    .container-left .box-1 h2{
+        padding-top: 20vw;
+        padding-left: 60px;
+    }
+
+}
+
+@media(max-width:1150px){
+    .container-left .box-1 h2{
+        padding-top: 33vw;
+        padding-left: 6vw;
+    }
+
+}
+
 .container-left .box-1 h2{
-    padding-top: 350px;
-    padding-left: 60px;
+   
+    
     font-family: Intrepid;
     font-size: 40px;
     margin-bottom: 5px;
     color: white;
     text-align: left;
-
 }
 
 
@@ -92,37 +107,56 @@ body{
     
 }
 
+@media (min-width:1150px){
+    .container-left h2{
+        font-size: 3.5vw;
+    }
+
+    .container-left p{
+        font-size: 1.1vw;
+    }
+
+    .container-left h1{
+        font-size: 5.5vw;
+    }
+}
+
+@media (max-width:1150px){
+    .container-left p{
+        font-size: 20px;
+    }
+}
+
+
+
 .container-left h2{
     /*text-align: right ;*/
     margin-bottom: 0px;
     margin-top: 0;
     font-family: Bahnschrift;
     font-weight: lighter;
-    font-size: 50px;
+    
 }
 
 .container-left p{
     font-family:  Lucida Sans Unicode;
-    font-size: 15px;
+    
 }
 
-
 .container-left h1{
-    font-size: 90px;
+    
     font-family: Bahnschrift;
     font-weight: bold;
-    
     margin-top: 0;
     margin-bottom: 0;
 }
 
 
 .list-1,.list-2{
-  
     height: 40px;
     width: 250px;
     margin-right: 10px;
-    top: -10px;
+    top: 0px;
     margin-left: 10px;
     float: left;
     display: inline;
@@ -160,24 +194,38 @@ body{
     margin-top: 0;
     font-family: Bahnschrift;
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 4.5vw;
+   
 }
 
 .container-right h1{
-    font-size: 90px;
+    font-size: 5vw;
     font-family: Bahnschrift;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
-   text-align: left;
+    text-align: left;
+   
 
 }
 
+@media (min-width:1150px){
+    .container-right p{
+        font-size: 1.1vw;
+    }
+}
 
+@media (max-width:1150px){
+    .container-right p{
+        font-size: 20px;
+    }
+}
 
 .container-right p{
     font-family: Lucida Sans Unicode;
-    font-size: 15px;
+    
+    
+    
 }
 
 .container-right .image{
@@ -193,6 +241,7 @@ body{
 .slider{
     width: 100%;
     height: 800px;
+    height: 53vw;
     border-radius: 0px;
     overflow: hidden;
 }
@@ -200,6 +249,7 @@ body{
 .slides{
     width: 500%;
     height: 800px;
+    height: 53vw;
     display: flex;
 
 }
@@ -216,12 +266,14 @@ body{
 .slide img{
     width: 100%;
     height: 800px;
+    height: 53vw;
 }
 
 .navigation-manual{
     position: absolute;
     width: 100%;
     margin-top: 670px;
+    margin-top: 43.7vw;
     display: flex;
     justify-content: center;
 }
@@ -265,6 +317,7 @@ body{
     width: 100%;
     justify-content: center;
     margin-top: 670px;
+    margin-top: 43.7vw;
 }
 
 .navigation-auto div{
@@ -290,6 +343,8 @@ body{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background:white ;
 }
+
+
 
 
 @media(max-width:1150px){
@@ -350,12 +405,13 @@ body{
     }
 
     .container-right{
-        height: 900px;
+        height: 65vw;
+        min-height:820px;
     }
     
     .container-mid .content{
         float: left;
-        text-align: left;
+        text-align: right;
         margin-left: 45%;
         width: 48%;
         position: absolute;
@@ -364,17 +420,19 @@ body{
     }
     
     .container-mid h1{
-        font-size: 35px;
+        font-size: 2.3vw;
         margin-top: 0px;
         text-align: right;
         margin-right: 30%;
+        
     }
     
     .container-mid h2{
-        font-size: 60px;
+        font-size: 4vw;
         text-align: right;
         margin-right: 30%;
         margin-top: 0px;
+     
     }
     
     .container-mid p{
@@ -411,9 +469,24 @@ body{
 }
 
 
-
+@media(max-width:1150px){
+    .container-mid img{
+        width: 60vw;
+        height: auto;
+}
+}
 
 @media(min-width: 1150px){
+
+.container-mid img{
+        width: 35vw;
+        height: auto;
+}
+
+.container-mid>.content>p{
+   
+    font-size: 1.3vw !important;
+}
 
 .flexbox{
     display: flex;
@@ -422,6 +495,7 @@ body{
 .container-right .content{
     margin-left: 80px;
     width: 80%;
+  
     
 }
 
@@ -452,6 +526,10 @@ body{
 
 @media(max-width:1150px){
 
+    .container-mid>.content>p{
+   
+        font-size: 20px !important;
+    }
 
 .content h1{
  text-align: center;
@@ -470,6 +548,8 @@ text-align: center;
 .container-right .box-2{
  background: url('../Hinh_anh/pic2_2.jpg');
  background-size: 100% 100%;
+ width: 90vw;
+ height: auto;
 
 }
 
@@ -492,7 +572,7 @@ text-align: center;
 .box-1{
     flex-basis: 83%;
     background :url('../Hinh_anh/test.jpg');
-    height:100fr;
+    height:30vw;
     background-size: 100% 100%;
 
 }
@@ -510,6 +590,7 @@ text-align: center;
 .container-right .box-1{
     background: rgb(246, 245, 243);
     flex-basis: 62%;
+    height: auto;
    
 }
 
@@ -517,11 +598,7 @@ text-align: center;
 
 .container-right .box-2{
     flex-basis: 38%;
-    min-height: 850px;
+    min-height: 650px;
 }
 
 
-.container-mid>.content>p{
-   
-    font-size: 20px !important;
-}
