@@ -2,6 +2,7 @@ $(document).ready(function() {
     $("#header").before(`
     <link rel="stylesheet" href="/header/header.css">
     <header>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <div class="container">
         <div class="branding">
             <h1>CODEFE COFFEE</h1>

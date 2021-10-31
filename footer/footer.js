@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $("#footer").before(`
 <link rel="stylesheet" href="/footer/footer.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <div class="footer-end">
         <div class="Logo">
 
