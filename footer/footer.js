@@ -5,7 +5,7 @@ $(document).ready(function() {
     <div class="footer-end">
         <div class="Logo">
 
-            <img class="Logo-image" src="../Hinh_anh/logo_footer.png">
+            <div class="Logo-image"></div>
 
             <h2> CODEFEE </h2>
             <h3> TEA & COFFEE </h3>
@@ -18,10 +18,10 @@ $(document).ready(function() {
         <div class="contact-info">
             <div class="Logos-all">
                 <a href="#">
-                    <img class="logo-fb" src="../Hinh_anh/fb.png">
+                    <div class="logo-fb"> </div>
                 </a>
                <a href="#">
-                <img class="logo-insta" src="../Hinh_anh/insa.png">
+                <div class="logo-insta" "> </div>
                </a>
                
             </div>

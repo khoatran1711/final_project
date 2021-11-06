@@ -16,8 +16,10 @@
 }
 
 .Logo-image{
-
-    width: 18%;
+    background: url("../Hinh_anh/logo_footer.png");
+    background-size: 100% 100%;
+    width: 4.8vw;
+    height: 4.8vw;
     margin-left: 14%;
     margin-top: 2vw;
     margin-bottom: 8%;
@@ -27,12 +29,26 @@
 .Logos-all{
     margin-left: 50%;
     margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .logo-fb, .logo-insta{
-    width: 25%;
+    width: 3.2vw;
     margin-left: 6%; 
-   
+    
+}
+
+.logo-insta{
+    background: url("../Hinh_anh/insa.png");
+    background-size: 100% 100%;
+    height :  3.2vw;
+}
+
+.logo-fb{
+    background: url("../Hinh_anh/fb.png");
+    background-size: 100% 100%;
+    height :  3.2vw;
 }
 
 .Copyright h1{

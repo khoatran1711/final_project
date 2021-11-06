@@ -20,10 +20,10 @@
 
 .line{
     height: 0.8vw;
-    width: 75%;
+    width: 100%;
     background-image: linear-gradient(to right, #ae7c1d, #a87719, #a27115, #9d6c11, #97670c, #9c6f15, #a2761d, #a77e24, #b89538, #c9ac4d, #dac462, #ebdd78);
     margin: auto;
-   
+    margin-top: 30px;
     
 }
 
@@ -189,7 +189,6 @@
 .info-2-img {
     height: 35vw;
     width: 70vw;
-    background: blue;
     margin: auto;
     margin-top: 5vw;
     overflow: hidden;
