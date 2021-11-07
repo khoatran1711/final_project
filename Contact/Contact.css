@@ -10,7 +10,8 @@ body {
 }
 
 .container-contact {
-    width: 500px;
+    width: 40vw;
+    min-width: 320px;
     height: 100vh;
     background-color: hsla(43, 25.71%, 64.28%, 0.87);
   }
@@ -21,19 +22,50 @@ body {
 }
 
 .contactto {
-    padding-top: 110px;
+    padding-top: 8.8vw;
     padding-bottom: 5px;
-    padding-left: 108px;
+    padding-left: 24%;
     font-family: great vibes;
-    font-size: 40px;
+    
     font-weight: 400;
+  }
+
+  @media(min-width:750px){
+    .contactto{
+      font-size: 40px;
+    }
+    .our-store{
+      font-size: 40px;
+    }
+    .form-container .input-item{
+      font-size: 16px;
+
+    }
+    .form-container p{
+      font-size: 20px;
+    }
+  }
+
+  @media(max-width:750px){
+    .contactto{
+      font-size: 30px;
+    }
+    .our-store{
+      font-size: 30px;
+    }
+    .form-container .input-item{
+      font-size: 12px;
+
+    }
+    .form-container p{
+      font-size: 14px;
+    }
   }
 .our-store {
     padding-top: 0px;
     padding-bottom: 10px;
-    padding-left: 201px;
+    padding-left: 34%;
     font-family: Great Vibes;
-    font-size: 40px;
     font-weight: 400;
     text-align: left;
   }
@@ -52,12 +84,12 @@ body {
   }
 
 .form-container{
-        height: 330px;
+        height: 30vw;
         margin-right: auto;
         margin-left: auto;
-        padding-top: 30px;
-        padding-right: 44px;
-        padding-left: 50px;
+        padding-top: 5%;
+        padding-right: 2.5vw;
+        padding-left: 2.7vw;
 }
 .form-container .input-item {
         width: 90%;
@@ -71,7 +103,6 @@ body {
         background-color: transparent;
         font-family: Montserrat;
         color: rgb(10, 10, 10);
-        font-size: 16px;
         line-height: 15px;
         font-weight: 400;
         border: none;
@@ -86,7 +117,7 @@ body {
         margin-right: auto;
         margin-left: auto;
         font-family: Montserrat;
-        font-size: 20px;
+      
         font-weight: 400;
       
 }

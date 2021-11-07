@@ -10,12 +10,6 @@
 
 
 
-.container-left,.container-right,.container-mid
-{
-    width: 90%;
-    margin: auto;
-    
-}
 
 .showcase{
     margin-top: 0px;
@@ -23,12 +17,6 @@
 }
 
 
-
-.test{
-    width: 1500px;
-    height: 800px;
-    background: url('../Hinh_anh/2800.jpg');
-}
 
 body{
     background-color: rgb(246, 245, 243);
@@ -46,197 +34,7 @@ body{
     
 }
 
-@media(min-width:1150px){
-    .container-left .box-1 h2{
-        padding-top: 20vw;
-        padding-left: 60px;
-    }
 
-}
-
-@media(max-width:1150px){
-    .container-left .box-1 h2{
-        padding-top: 33vw;
-        padding-left: 6vw;
-    }
-
-}
-
-.container-left .box-1 h2{
-   
-    
-    font-family: Intrepid;
-    font-size: 40px;
-    margin-bottom: 5px;
-    color: white;
-    text-align: left;
-}
-
-
-.image nav{
-    margin-left: 10px;
-
-}
-
-
-
-.image li{
-    border: black 1px solid;
-    height: 20px;
-    width: 200px;
-    margin-right: 10px;
-    margin-top: 0px;
-    margin-left: 20px;
-    float: left;
-    display: inline;
-    text-align: center;
-    padding: 10 20 10 20;
-    overflow: hidden;
-}
-
-
-
-.container-left > .image{
-    float: left;
-    background:url('../Hinh_anh/test.jpg');
-}
-
-.container-left .content{
-    margin-top: 100px;
-   
-    
-}
-
-@media (min-width:1150px){
-    .container-left h2{
-        font-size: 3.5vw;
-    }
-
-    .container-left p{
-        font-size: 1.1vw;
-    }
-
-    .container-left h1{
-        font-size: 5.5vw;
-    }
-}
-
-@media (max-width:1150px){
-    .container-left p{
-        font-size: 20px;
-    }
-}
-
-
-
-.container-left h2{
-    /*text-align: right ;*/
-    margin-bottom: 0px;
-    margin-top: 0;
-    font-family: Bahnschrift;
-    font-weight: lighter;
-    
-}
-
-.container-left p{
-    font-family:  Lucida Sans Unicode;
-    
-}
-
-.container-left h1{
-    
-    font-family: Bahnschrift;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-
-.list-1,.list-2{
-    height: 40px;
-    width: 250px;
-    margin-right: 10px;
-    top: 0px;
-    margin-left: 10px;
-    float: left;
-    display: inline;
-    text-align: center;
-    padding: 10 20 10 20;
-    font-family: intrepid;
-}
-
-.list-1{
-    background-color: white;
-    border: white 1px solid;
-}
-.list-1 a{
-   color: black;
-   text-decoration: none;
-}
-.list-2{
-    border: white 1px solid;
-}
-.list-2 a{
-    color: white;
-    text-decoration: none;
-}
-
-
-.container-right .content{
-    margin-top: 90px;
-    
-    
-}
-
-.container-right  h2{
-  
-    margin-bottom: 0px;
-    margin-top: 0;
-    font-family: Bahnschrift;
-    font-weight: lighter;
-    font-size: 4.5vw;
-   
-}
-
-.container-right h1{
-    font-size: 5vw;
-    font-family: Bahnschrift;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: left;
-   
-
-}
-
-@media (min-width:1150px){
-    .container-right p{
-        font-size: 1.1vw;
-    }
-}
-
-@media (max-width:1150px){
-    .container-right p{
-        font-size: 20px;
-    }
-}
-
-.container-right p{
-    font-family: Lucida Sans Unicode;
-    
-    
-    
-}
-
-.container-right .image{
-    float: right;
-    width: 45%;
-    height: 850px;
-    margin-top: 0;
-    margin-right: 0px;
-    background-image: url('../Hinh_anh/test3.jpg');
-   
-}
 
 .slider{
     width: 100%;
@@ -344,261 +142,216 @@ body{
     background:white ;
 }
 
-
-
-
-@media(max-width:1150px){
-    .container-mid{
-        padding-bottom: 10px;
-        height:auto;
-    }
-
-    .container-mid .picture-text1{
-        margin-top: 450px;
-        margin-left: 23%;
-    }
-
-    .container-mid h2{
-        font-size: 40px;
-    }
-
-    .container-mid h1{
-        font-size: 50px;
-    }
-
-    .container-left .box-1 {
-        min-height: 500px;
-    }
-
-    .container-left h2{
-        font-size: 40px;
-    }
-
-    .container-left h1{
-        font-size: 70px;
-    }
-    .container-right h1{
-        font-size: 70px;
-    }
-    .container-right h2{
-        font-size: 40px;
-    }
-
-    .container-right{
-        height: 1000px;
-    }
-    
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 6vw;
 }
 
-@media(max-width:650px){
-    .container-right {
-        height: 1100px;
-
-    }
-    
-}
-
-@media(min-width: 1150px){
-    .container-mid{
-        padding-bottom: 40px;
-        min-height: 500px;
-    }
-
-    .container-right{
-        height: 65vw;
-        min-height:820px;
-    }
-    
-    .container-mid .content{
-        float: left;
-        text-align: right;
-        margin-left: 45%;
-        width: 48%;
-        position: absolute;
-        margin-top: 90px;
-        
-    }
-    
-    .container-mid h1{
-        font-size: 2.3vw;
-        margin-top: 0px;
-        text-align: right;
-        margin-right: 30%;
-        
-    }
-    
-    .container-mid h2{
-        font-size: 4vw;
-        text-align: right;
-        margin-right: 30%;
-        margin-top: 0px;
-     
-    }
-    
-    .container-mid p{
-        text-align: right;
-        margin-right: 30%;
-        margin-top: 0px;
-    }
-    
-    .picture-text1{
-        background: url('../Hinh_anh/145.jpg');
-        margin-left: 10%;
-        margin-top: 0px;
-        display: flex;
-        position: absolute;
-
-    }
-
-    .picture-text1 img{
-        margin-left: 10%;
-        margin-top: 80px;
-        display: flex;
-        position: absolute;
-        
-    }
-    .block{
-        display: flex;
-        margin-top: 48px;
-        width: 35%;
-        height: 430px;
-        background: rgb(196, 183, 158);
-        margin-left: 23%;
-        position: absolute;
-    }
-}
-
-
-@media(max-width:1150px){
-    .container-mid img{
-        width: 60vw;
-        height: auto;
-}
-}
-
-@media(min-width: 1150px){
-
-.container-mid img{
-        width: 35vw;
-        height: auto;
-}
-
-.container-mid>.content>p{
-   
-    font-size: 1.3vw !important;
-}
-
-.flexbox{
-    display: flex;
-}
-
-.container-right .content{
-    margin-left: 80px;
-    width: 80%;
-  
-    
-}
-
-.content h2{
-    text-align: right ;
-}
-
-.container-right h2{
-    text-align: left;
-}
-
-.container-right .box-2{
-    background: url('../Hinh_anh/pic2.jpg');
-    background-size: 100% 100%;
-}
-/* min-width:1100px*/
-
-.container-left h2{
-    text-align: right;
-}
-
-.container-left .box-2{
-    padding-left: 5%;
-}
-
-}
-
-
-@media(max-width:1150px){
-
-    .container-mid>.content>p{
-   
-        font-size: 20px !important;
-    }
-
-.content h1{
- text-align: center;
- /*font-size: 60px;*/
-}
-
-.content h2{
-text-align: center;
-/*font-size: 50px;*/
-}
-
-.container-right .image{
-    flex-basis: auto;
-}
-
-.container-right .box-2{
- background: url('../Hinh_anh/pic2_2.jpg');
- background-size: 100% 100%;
- width: 90vw;
- height: auto;
-
-}
-
-.container-left h2,h1{
-    text-align: center;
-}
-
-
-/* max-width:1100px*/
-
-
-
-}
-
-
-.flexbox{
-    margin-top: 30px;
-}
-
-.box-1{
-    flex-basis: 83%;
-    background :url('../Hinh_anh/test.jpg');
-    height:30vw;
-    background-size: 100% 100%;
-
-}
-
-
-.container-right>.flexbox{
-    height: 850px;
-}
-.box-2{
-    flex-basis: 17%;
-    font-size: 30px;
-   
-}
-
-.container-right .box-1{
-    background: rgb(246, 245, 243);
-    flex-basis: 62%;
+.info-1{
     height: auto;
-   
+}
+
+@media(min-width:750px){
+    .info-1{
+        display: grid;
+        grid-template-columns: 70% 25%;
+        column-gap: 5%;
+    }
+}
+
+.info-1-img img{
+    width: 100%;
+    height: auto;
+}
+
+.info-1-content{
+    margin-top: 6vw;
 }
 
 
 
-.container-right .box-2{
-    flex-basis: 38%;
-    min-height: 650px;
+@media(min-width:750px){
+    .info-header-1{
+        text-align: right;
+    }
+
+    .info-header-1{
+        font-size: 3vw;
+        font-family: Bahnschrift;
+    }
+    
+    .info-header-1 h2{
+        font-size: 5.3vw;
+    }
+    
+    .info-content-1{
+        font-size: 1.3vw;
+        text-align: right;
+        line-height: 1.7;
+    }
+}
+
+@media(max-width:750px){
+    .info-header-1{
+        text-align: center;
+    }
+
+    .info-header-1{
+        font-size: 5vw;
+        font-family: Bahnschrift;
+    }
+    
+    .info-header-1 h2{
+        font-size: 8vw;
+    }
+    
+    .info-content-1{
+        font-size: 3.2vw;
+        text-align: center;
+    }
+}
+
+.info-2{
+    margin-top: 6vw;
+}
+
+.info-2-img img{
+    width: 100%;
+    height: auto;
+}
+
+.info-2-content{
+    margin-top: 4vw;
 }
 
 
+@media(min-width:750px){
+    .info-2-content{
+        order: 1;
+    }
+    .info-2{
+        display: grid;
+        grid-template-columns: 57% 38%;
+        column-gap: 5%;
+        height: auto;
+    }
+    
+    .info-2-img{
+        order: 2;
+    }
+
+    .info-header-2{
+        text-align: left;
+    }
+
+    .info-header-2{
+        font-size: 3vw;
+        font-family: Bahnschrift;
+    }
+    
+    .info-header-2 h2{
+        font-size: 5.3vw;
+    }
+    
+    .info-content-2{
+        font-size: 1.3vw;
+        text-align: left;
+        line-height: 1.7;
+    }
+    
+}
+
+@media(max-width:750px){
+    .info-header-2{
+        text-align: center;
+    }
+
+    .info-header-2{
+        font-size: 5vw;
+        font-family: Bahnschrift;
+    }
+    
+    .info-header-2 h2{
+        font-size: 8vw;
+    }
+    
+    .info-content-2{
+        font-size: 3.2vw;
+        text-align: center;
+    }
+}
+
+.info-3{
+    margin-top: 6vw;
+}
+
+.block{
+    width: 100%;
+    height: 100%;
+}
+
+.info-3-content{
+    margin-top: 2vw;
+}
+@media(min-width:750px){
+    .block{
+        background: url("../Hinh_anh/Home/mockup.png");
+        background-size: 100% 100%;
+    }
+
+    .info-3{
+        display: grid;
+        grid-template-columns: 57% 38%;
+        column-gap: 5%;
+        height: auto;
+    }
+    
+
+    .info-header-3{
+        text-align: centers;
+    }
+
+    .info-header-3{
+        font-size: 3vw;
+        font-family: Bahnschrift;
+        text-align: center;
+    }
+    
+    .info-header-3 h2{
+        font-size: 5.3vw;
+        text-align: center;
+    }
+    
+    .info-content-3{
+        font-size: 1.3vw;
+        text-align: center;
+        line-height: 1.7;
+    }
+    
+}
+
+@media(max-width:750px){
+    .block{
+        background: url("../Hinh_anh/Home/mockup-poster.jpg");
+        background-size: 100% 100%;
+    }
+
+    .info-header-3{
+        text-align: center;
+    }
+
+    .info-header-3{
+        font-size: 5vw;
+        font-family: Bahnschrift;
+    }
+    
+    .info-header-3 h2{
+        font-size: 8vw;
+    }
+    
+    .info-content-3{
+        font-size: 3.2vw;
+        text-align: center;
+    }
+}
