@@ -103,7 +103,7 @@
   
   
   .cart-img{
-    background:url('../Hinh_anh/bag.png');
+    background:url('./Hinh_anh/bag.png');
     height: 35px;
     width: 35px;
     background-size: 100% 100%;
@@ -138,7 +138,7 @@
     }
     
     .menu-icon{
-      background:url('../Hinh_anh/category.png');
+      background:url('./Hinh_anh/category.png');
       height: 35px;
       width: 35px;
       background-size: 100% 100%;
