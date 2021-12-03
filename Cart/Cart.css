@@ -111,7 +111,7 @@
 
 @media(min-width:750px){
     .block-content h4{
-        font-size: 0.7vw;
+        font-size: 0.9vw;
     }
 }
 @media(max-width:750px){
@@ -120,7 +120,7 @@
     }
 }
 
-input{
+input[type="text"]{
     width: 95%;
     height: 3vw;
     min-height: 30px;
@@ -288,12 +288,232 @@ input{
     margin: auto;
     margin-top: 2vw;
     text-align: center;
-    padding-top: 11px;
+    padding-top: 3px;
     margin-bottom: 30px;
+    font-family: Montserrat;
+    font-weight: bold;
     
 }
 
 a{
 
     text-decoration: none;
+}
+
+.payment-method{
+    margin: auto;
+    background: white;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: rgb(209, 201, 186);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 0px;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: #B0882F;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 0px;
+}
+
+.payment-method input[type="radio"] {
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+.payment-method label{
+    margin-top: 30px;
+    margin-left: 3%;
+}
+.payment-method span {
+    font-family: Montserrat;
+  
+    font-weight: bolder;
+    margin-left: 3%;
+}
+
+@media(min-width:550px){
+    .payment-method span{
+        font-size: 15px;
+    }
+}
+@media(max-width:550px){
+    .payment-method span{
+        font-size: 12px;
+    }
+}
+
+.product-item{
+    display:grid;
+    width: 67vw;
+    background: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 0.8vw;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    color:#723628;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+@media (max-width:750px) {
+    h2{
+        font-size: 1.8vw;
+    }
+
+}
+
+@media (min-width:750px) {
+    .product-item{
+        font-size: 1.2vw;
+    }
+
+}
+
+@media (max-width:750px) {
+    .product-item{
+        font-size: 1.8vw;
+    }
+    h4{
+        font-size: 1.8vw;
+    }
+    h3{
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width:550px) {
+    .product-item{
+        font-size: 1.8vw;
+    }
+
+    input[type="text"]{
+        font-size: 1.8vw;
+    }
+    
+}
+
+.product-item-name{
+    text-align: left;
+}
+
+.product-item-amount{
+    text-align: center;
+}
+
+.product-item-total{
+    text-align: right;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background: black;
+    margin-top: 1vw;
+}
+
+.Your-bill{
+    background: url('../Hinh_anh/background/background.png');
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-size: 100% 100%;
+}
+
+.bill{
+    width: 90%;
+    margin-left: 5%;
+    background: #ffffff;
+   
+}
+.bill-1{
+    margin-left: 5%;
+}
+
+.acknowledgement{
+    text-align: center;
+    color: #723628;
+    padding-bottom: 2%;
+}
+
+
+.Success-annouce{
+    font-size: 1.8vw;
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: #723628;
+}
+
+.shipping-car{
+    width: 15vw;
+    height:15vw;
+    margin: auto;
+    background: url("../Hinh_anh/Shipping/delivery.png");
+    background-size: 100% 100%;
+}
+
+.shipping-place{
+    display: grid;
+    
+    
+}
+
+
+.point{
+    width: 6vw;
+    height:6vw;
+    background: url("../Hinh_anh/Shipping/check-in.png");
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+.address-place{
+   height: auto;
+   text-align: center;
+   margin-top: 2.3%;
+   color: #B7553E;
+   font-family: Montserrat;
+   font-weight: bold;
+   font-size: 1.8vw;
+   
+}
+
+.error-img{
+    width: 12vw;
+    height:12vw;
+    margin: auto;
+    background: url("../Hinh_anh/Shipping/warning.png");
+    background-size: 100% 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.product-img{
+    width: 18vw;
+    height:6vw;
+    background: url("../Hinh_anh/Shipping/Do_an.png");
+    background-size: 100% 100%;
+    margin: auto;
 }

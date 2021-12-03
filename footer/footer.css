@@ -94,3 +94,8 @@
 a{
     outline: none;
 }
+
+.acknowledgement{
+    margin-top: 1.3vw;
+    font-size: 1.3vw;
+}
